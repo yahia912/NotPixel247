@@ -1,5 +1,6 @@
 const logger = require("./bot/utils/logger");
 const luncher = require("./bot/utils/luncher");
+const keep_alive = require('./keep_alive.js')
 
 const main = async () => {
   const nodeVersion = process.version;
